@@ -259,24 +259,24 @@
   }
 
   #closeViewer {
-    position: absolute;
-    bottom: 5px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 10000px;
-    padding: 17px 0px;
-    background: #082A48;
-    border: none;
-    color: white;
-    font-size: 16px;
-    border-radius: 6px;
-    cursor: pointer;
-    z-index: 10000;
-  }
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10000px;
+  padding: 17px 0px;
+  background: #ffffff;      /* fundo branco */
+  border: none;
+  color: #000000;           /* texto preto */
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  z-index: 10000;
+}
 
-  #closeViewer:hover {
-    background: #005fa3;
-  }
+#closeViewer:hover {
+  background: #ffffff;
+}
 
   #fullscreenBtn {
     position: fixed;
@@ -356,7 +356,6 @@ let links = [
     link: "https://app.powerbi.com/view?r=eyJrIjoiYjAwNjZhOTAtMDFmYy00OGZmLTk2MTItNGE2MzIxMDMyMmQ0IiwidCI6ImIwZGU5NTg3LTZiN2ItNDRjZi04ZmU4LTdlZThhNTdhMTBiZCJ9"
   }
 ];
-
 
 let usuarioLogado = "";
 
@@ -560,3 +559,5 @@ drawParticles();
 
 </body>
 </html>
+
+
